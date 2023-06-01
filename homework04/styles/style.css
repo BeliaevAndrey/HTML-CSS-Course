@@ -125,6 +125,7 @@
     margin-top: 41px;
     width: 610px;
     height: 373px;
+    padding-top: 41px;
 }
 
 .footer__logos {
@@ -133,4 +134,5 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding-top: 97px;
 }
