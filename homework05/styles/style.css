@@ -83,13 +83,6 @@ a {
 
 }
 
-.item.head.centered {
-    width: 370px;
-    flex-flow: column;
-    justify-content: flex-start;
-
-}
-
 .img__small {
     margin: 0;
 }
