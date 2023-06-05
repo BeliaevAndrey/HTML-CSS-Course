@@ -45,11 +45,12 @@ a {
 }
 
 .shadow {
-    box-shadow: 20px 20px 20px 2px #f0f0f0;
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
 }
 
 .header {
     padding-top: 100px;
+    padding-bottom: 100px;
     width: 100%;
     height: 351px;
     display: grid;
@@ -72,8 +73,7 @@ a {
 }
 
 .item.head {
-    padding-left: auto;
-    padding-right: auto;
+    padding: 30px;
     width: 310px;
     height: 291px;
     display: flex;
