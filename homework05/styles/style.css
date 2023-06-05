@@ -61,7 +61,7 @@ a {
 }
 
 .header.wide {
-    margin-top: 0;
+    padding-top: 0;
     grid-column: 1 / 4;
     height: 270px;
     display: flex;
