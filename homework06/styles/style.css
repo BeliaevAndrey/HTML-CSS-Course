@@ -240,6 +240,9 @@
     background-color: #F7E4E2;
 }
 
+.gallery__image {
+    height: 100%;
+}
 .gallery__item__text_box {
     width: 328px;
     padding: 24px 16px 24px 16px;
