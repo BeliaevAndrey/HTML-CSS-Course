@@ -53,9 +53,14 @@
 
 .banner {
     width: 1600px;
+    height: 764px;
     display: flex;
+    background-color: #F1E4E6;
 }
-
+.banner__image{
+    height: 100%;
+    margin: 0;
+}
 .banner__left {
     width: 50%;
     height: auto;
