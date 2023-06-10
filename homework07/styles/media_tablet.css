@@ -64,7 +64,7 @@
     }
 
     .content__gallery {
-        width: 768px;
+        max-width: 768px;
         gap: 16px;
         margin-top: 72px;
     }

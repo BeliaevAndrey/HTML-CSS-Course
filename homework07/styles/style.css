@@ -122,12 +122,13 @@
 
 .banner__brand {
     width: 405px;
-    height: auto;
+    height: 96px;
     display: flex;
     flex-flow: column;
     align-items: center;
     background-image: url(../img/10_rosy_band_vertical.png);
     padding-left: 38px;
+    background-clip: border-box;
     background-repeat: no-repeat;
 }
 
@@ -236,7 +237,7 @@
 }
 
 .content__gallery {
-    width: 1140px;
+    max-width: 1140px;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
