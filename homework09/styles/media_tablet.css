@@ -86,9 +86,8 @@
     /* Links */
 
     .footer__links {
+        max-width: 768px;
         min-height: 610px;
-        padding-left: 200px;
-        padding-right: 200px;
     }
 
     .footer__center {
