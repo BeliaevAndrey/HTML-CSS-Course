@@ -162,7 +162,7 @@
     /* Links */
 
     .footer__links {
-        max-width: 375px;   
+        max-width: 375px;
         min-height: 610px;
     }
 
@@ -182,4 +182,19 @@
         transition: transform 2s;
         transform: translateY(-6px);
     }
+
+    .footer__bar__text {
+        margin-left: auto;
+    }
+
+    .footer__bar__menu {
+        margin-right: auto;
+    }
+
+
+    .footer__social__icon:active {
+        transform: translate(0, -30px) scale(3);
+    }
+
+
 }

@@ -77,7 +77,7 @@
     .gallery__image__box:active {
         z-index: 0;
     }
-    
+
     .gallery__item__blend__hover:active {
         z-index: 2;
     }
@@ -95,12 +95,12 @@
         flex-direction: column;
         gap: 50px;
     }
-    
+
     .footer__link__card {
         margin-top: auto;
         margin-bottom: auto;
     }
-    
+
     /* Form */
 
     .footer__form {
@@ -126,4 +126,18 @@
         justify-content: center;
         flex-direction: row;
     }
+
+    .footer__bar__text {
+        margin-left: 32px;
+    }
+
+    .footer__bar__menu {
+        margin-right: 32px;
+    }
+
+
+    .footer__social__icon:active {
+        transform: translate(0, -30px) scale(3);
+    }
+
 }
