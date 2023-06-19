@@ -82,5 +82,49 @@
         z-index: 2;
     }
 
+    /* Footer */
+    /* Links */
 
+    .footer__links {
+        min-height: 610px;
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+
+    .footer__center {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    
+    .footer__link__card {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    
+    /* Form */
+
+    .footer__form {
+        flex-direction: column;
+    }
+
+    /* Top-menu */
+    /* Drop-down menu */
+
+    .menu__pad {
+        left: -200px;
+        transform: translateY(-780px);
+    }
+
+    .drop__down_menu__box:active .menu__pad {
+        transition: transform 2s;
+        transform: translateY(-0px);
+    }
+
+    .footer__bar__copy_nav {
+        max-width: 1024px;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
 }
