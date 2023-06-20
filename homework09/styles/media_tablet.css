@@ -82,6 +82,13 @@
         z-index: 2;
     }
 
+    .gallery__footer__button:active {
+        background-color: #FF6A6A;
+        ;
+        color: #FFF;
+    }
+
+
     /* Footer */
     /* Links */
 
@@ -137,7 +144,8 @@
 
 
     .footer__social__icon:active {
-        transform: translate(0, -30px) scale(3);
+        background-color: #F16D7F;
+        color: #fff;
     }
 
 }
